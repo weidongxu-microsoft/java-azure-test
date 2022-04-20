@@ -32,6 +32,8 @@ public class App
                 .withDefaultSubscription();
 
 
-        System.out.println("count " + azureResourceManager.storageAccounts().list().stream().count());    
+        System.out.println("count " + azureResourceManager.storageAccounts().list().stream().count());
+
+        System.exit(0);
     }
 }
